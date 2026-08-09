@@ -1,0 +1,21 @@
+# Generated cache/checkpoint artifacts (see PRD.md §2.1 — every expensive
+# stage is checkpointed under CFG.CACHE_ROOT). None of this is reproducible
+# input; it's regenerated from OpenAlex + the notebook.
+orca_gcn_caif/
+*.parquet
+*.npy
+*.pt
+raw_works.jsonl.gz
+cfg_*.json
+caif_report.json
+caif_report.csv
+edge_audit.parquet
+sweep.csv
+test_report.json
+.ipynb_checkpoints/
+
+# Local dev environments (machine-specific, never portable across contributors)
+.venv/
+venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,18 @@
+# Reference pins for local dev only. On Colab, Cell 0 of ORCA_GCN_CAIF.ipynb
+# installs what's actually available on the runtime — see PRD.md §3.4/R5 on
+# why Colab's preinstalled transformers/adapters versions can drift from this.
+
+GraphRicciCurvature>=0.5.3.1
+POT>=0.9
+networkx>=3.4
+torch-geometric>=2.6
+torch>=2.4
+transformers>=4.44
+adapters>=1.0
+sentence-transformers
+pyarrow
+pandas
+scikit-learn
+psutil
+tqdm
+requests
